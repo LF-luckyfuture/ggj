@@ -12,12 +12,12 @@ public class CursorImage : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             cursorImage.color = Color.red;
-            transform.localScale = new Vector3(2f, 2f, 2f);
+            transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
         }
         if (Input.GetMouseButtonUp(0))
         {
             cursorImage.color = Color.white;
-            transform.localScale = new Vector3(2.3f, 2.3f, 2.3f);
+            transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
         }
     }
 }
